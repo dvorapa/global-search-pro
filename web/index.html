@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<!--first miliseconds-->
+<style>
+  img,input.icon{height:50px} /* todo */
+</style>
+<title>True Global Search</title>
+
+<!--lazy loaded-->
+<noscript>
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://tools-static.wmflabs.org/fontcdn/css?family=Nunito&subset=cyrillic,cyrillic-ext,latin,latin-ext,vietnamese' rel='stylesheet' type='text/css'>
+</noscript>
+
+<meta name="author" content="Pavel Dvořák">
+<meta name="description" content="This tool allows users to search all wikis at once using CirrusSearch and other familiar stuff.">
+<meta name="keywords" content="wikimedia,search,wiki,wikipedia,global">
+<meta name="scaffolded-by" content="https://github.com/dart-lang/sdk">
+<meta name="version" content="0.2.1">
+</head>
+<body>
+<div id="header">
+<div id="center">
+  <a href="/"><img id="logo" src="logo.png" alt="Home"></a>
+  <form>
+  <input name="q" id="search" placeholder="Search all wikis at once">
+  <div id="icons">
+  <input type="image" class="icon" src="search.png" alt="Submit Form" />
+  </div>
+  </form>
+</div>
+</div>
+
+<!--angular generated-->
+<pandas><span>feeding some pandas...</span></pandas>
+
+<div id="footer">created by Dvorapa using Pywikibot, Flask and Dart with help of some pandas, rhinos and whales</div>
+
+<script defer src="scripts.dart.js"></script>
+</body>
+</html>

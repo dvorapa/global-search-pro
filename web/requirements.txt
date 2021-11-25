@@ -1,0 +1,7 @@
+# mandatory
+flask
+pywikibot
+mwparserfromhell
+
+# optional alternative to mwparserfromhell
+wikitextparser

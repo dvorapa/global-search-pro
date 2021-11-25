@@ -1,0 +1,172 @@
+/** reset first miliseconds vzhledu **/
+
+img{
+  height:inherit
+}
+
+pandas span{
+  padding:3em;
+  position:relative;
+  top:30%;
+  left:30%
+}
+
+
+/** lazy loading vzhled **/
+/* basic */
+
+body,html{
+  height:100%
+}
+
+body{
+  font-family:Nunito,Helvetica,Arial,sans-serif;
+  margin:0
+}
+
+a{
+  color:#00A0D1;  /*modrá*/
+  font-weight:bold;
+  text-decoration:none
+}
+
+a:hover{
+  color:#F26E01  /*oranžová*/
+}
+
+form{
+  display:inline
+}
+
+
+/* header */
+
+#header{
+  background:lavender;
+  height:9%;
+  min-height:50px;
+  max-height:150px;
+  text-align:center
+}
+
+#header #center{
+  height:100%;
+  margin:auto;
+  width:70%
+}
+
+#header #logo{
+  float:left;
+  height:100%
+}
+
+#header #search{
+  background:white;
+  border:2px solid black;
+  float:left;
+  height:65%;
+  margin-top:1%;
+  margin-left:10%;
+  padding:0 1em;
+  width:35%
+}
+
+#header #icons{
+  float:left;
+  height:100%;
+  margin-left:1em
+}
+
+#header #icons .icon{
+  float:left;
+  height:80%;
+  margin-top:.5em
+}
+
+
+/* panda_items */
+
+#panda_items{
+  float:left;
+  height:86%;
+  width:30%
+}
+
+.panda_items_list{
+  float:right;
+  width:50%
+}
+
+.panda_item{
+  list-style-type:none;
+  margin:.5em 0
+}
+
+.panda_item a{
+  color:silver
+}
+
+.panda_item .panda_desc{
+  text-align:left
+}
+
+.panda_item .panda_image{
+  float:left;
+  margin:.5em;
+  width:2em
+}
+
+
+/* panda_modules */
+
+#panda_modules{
+  float:left;
+  height:86%;
+  text-align:left;
+  width:70%
+}
+
+.panda_module_row{
+  text-align:left
+}
+
+.panda_module .panda_image{
+  width:8em
+}
+
+.panda_module .panda{
+  margin-left:2em
+}
+
+.panda_module .whale{
+  color:gray;
+  font-weight:bold;
+  line-height:2em
+}
+
+#footer{
+  background:white;
+  color:gray;
+  height:5%;
+  min-height:25px;
+  max-height:75px;
+  padding:.25em;
+  text-align:center;
+  width:100%;
+  position:fixed;
+  bottom:0
+}
+
+
+/* responzivita, todo */
+@media(max-width:948px){
+  .panda_items_list{
+    width:100%
+  }
+}
+
+@media(max-width:840px){
+  #header #center{
+    width:100%
+  }
+}
