@@ -33,4 +33,4 @@ Please fill in an issue or a pull request on project's
 [GitHub page](https://github.com/dvorapa/global-pandas).
 
 ## License
-[BSD-3-Clause](https://github.com/dvorapa/global-pandas/blob/master/LICENSE)
+[BSD 3-Clause "New" or "Revised"](https://github.com/dvorapa/global-pandas/blob/master/LICENSE)
