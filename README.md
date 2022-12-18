@@ -26,7 +26,8 @@ Tool should be online at https://global-pandas.toolforge.org .
 [Pavel Dvořák](https://www.mediawiki.org/wiki/User:Dvorapa)
 ([@dvorapa](https://twitter.com/dvorapa))
 
-You might want to buy me a [hot chocolate ☕](https://paypal.me/dvorapa).
+You might want to buy me a hot chocolate ☕ using [Paypal](
+https://paypal.me/dvorapa) or [Revolut](https://revolut.me/dvorapa).
 
 ## Contributing
 Please fill in an issue or a pull request on project's
