@@ -1,3 +1,5 @@
+_Repo moved to https://gitlab.wikimedia.org/toolforge-repos/global-search-pro _
+
 # global-pandas
 Toolforge's Global Search differently
 
